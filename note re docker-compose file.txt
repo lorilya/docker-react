@@ -1,0 +1,5 @@
+Now this docker-compose.yml file is just for use with AWS beanstalk (not actually using).
+To run the regular docker-compose, it was renamed to:
+docker-compose-dev.yml.  
+So to run docker-compose now, we do:
+docker-compose -f docker-compose-dev.yml up, + -- build, down instead to reference a yml file with a different name than just docker-compose.yml
